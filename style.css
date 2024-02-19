@@ -1,0 +1,102 @@
+/* Add your CSS here */
+header img {
+  width: 70px;
+  height: 70px;
+  padding-left: 19.8%;
+  padding-top: 17px;
+}
+header u {
+  color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-image: url("/public/images/background.png");
+}
+
+nav ul {
+  display: flex;
+  padding-top: 40px;
+  padding-left: 70%;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+header {
+  display: flex;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: azure;
+  font-size: 20px;
+}
+
+main {
+  color: azure;
+  height: 400px;
+  width: 700px;
+  padding-left: 20%;
+  padding-top: 7%;
+  font-size: 26px;
+}
+.rounded-button {
+  padding: 20px 70px; /* Add padding to the buttons */
+  border: none; /* Remove default button border */
+  background-color: #ea2845; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border-radius: 30px; /* Set border radius to create rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-right: 10px; /* Add margin between buttons */
+  transition: background-color 0.3s ease;
+  font-size: 17px;
+}
+
+.rounded-button:hover {
+  background-color: transparent; /* Change background color to transparent on hover */
+  border: 2px solid #ea2845;
+}
+.rounded-button1:hover {
+  background-color: transparent; /* Change background color to transparent on hover */
+  border: 2px solid #ea2845;
+}
+.rounded-button:focus {
+  outline: none; /* Remove outline on focus */
+}
+.rounded-button1 {
+  padding: 20px 70px; /* Add padding to the buttons */
+  border: none; /* Remove default button border */
+  background-color: transparent; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border-radius: 30px; /* Set border radius to create rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-right: 10px; /* Add margin between buttons */
+  transition: background-color 0.3s ease;
+  border: 2px solid azure;
+  font-size: 15px;
+}
+
+.btn {
+  padding-top: 50px;
+}
+
+.partTwo {
+  width: 600px;
+  height: 800px;
+  background-color: aliceblue;
+  display: flex;
+  color: #ea2845S;
+}
